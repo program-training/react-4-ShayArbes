@@ -1,12 +1,9 @@
-import "./App.css";
-import { Example } from "./components/Example/Example";
 
-function App() {
-  return (
-    <>
-      <Example />{" "}
-    </>
-  );
-}
+
+import { Grandpa } from './Context/Grandpa';
+
+const App: React.FC = () => {
+  return <Grandpa />;
+};
 
 export default App;
